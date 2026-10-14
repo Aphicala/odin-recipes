@@ -1,0 +1,44 @@
+body {
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.title {
+    text-align: center;
+    font-size: 72px;
+}
+
+.links {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.layout {
+    background-color: chocolate;
+     margin: 0px 400px 60px;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+   
+    font-size: 24px;
+    /* align-content: space-evenly; */
+    justify-content: space-around;
+}
+
+/* .home {
+    ;
+} */
+
+.card {
+    background-color: cornsilk;
+}
+
+.recipes {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
